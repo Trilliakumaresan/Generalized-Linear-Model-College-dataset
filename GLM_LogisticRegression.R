@@ -1,4 +1,3 @@
-#Name- Aquila Persis Pillay, Date- 29/01/2024
 cat("\014") # clears console
 rm(list = ls()) # clears global environment
 try(dev.off(dev.list()["RStudioGD"]), silent = TRUE) # clears plots
